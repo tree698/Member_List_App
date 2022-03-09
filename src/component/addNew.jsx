@@ -1,49 +1,62 @@
 import React, { Component } from 'react';
 
 class AddNew extends Component {
-  initialState = {
-    name: '',
-    job: '',
-  };
+  // initialState = {
+  //   name: '',
+  //   job: '',
+  // };
 
-  state = this.initialState;
+  // state = this.initialState;
 
-  handleChange = (event) => {
-    const { name, value } = event.target;
-    this.setState({ [name]: value });
-  };
+  // handleChange = (event) => {
+  //   const { name, value } = event.target;
+  //   this.setState({ [name]: value });
+  // };
+
+  nameRef = React.createRef();
+  jobRef = React.createRef();
 
   onFormSumbit = (event) => {
     event.preventDefault();
-    this.props.handleSubmit1(this.state);
-    this.setState(this.initialState);
+    const character = {
+      name: this.nameRef.current.value,
+      job: this.jobRef.current.value,
+    };
+
+    // this.props.handleSubmit1(this.state);
+    character && this.props.handleSubmit1(character);
+    // this.setState(this.initialState);
+    this.nameRef.current.value = '';
+    this.jobRef.current.value = '';
   };
 
   render() {
-    const { name, job } = this.state;
+    // const { name, job } = this.state;
     return (
       <>
         <h3>Add New</h3>
         <form action="" onSubmit={this.onFormSumbit}>
           <label htmlFor="name">Name</label>
           <input
+            ref={this.nameRef}
             type="text"
-            name="name"
-            id="name"
-            value={name}
-            onChange={this.handleChange}
+            // name="name"
+            // id="name"
+            // value={name}
+            // onChange={this.handleChange}
           />
           <br />
           <label htmlFor="job">Job</label>
           <input
+            ref={this.jobRef}
             type="text"
-            name="job"
-            id="job"
-            value={job}
-            onChange={this.handleChange}
+            // name="job"
+            // id="job"
+            // value={job}
+            // onChange={this.handleChange}
           />
           <br />
-          <button onSubmit={this.handleSubmit}>Submit</button>
+          <button>Submit</button>
         </form>
       </>
     );
