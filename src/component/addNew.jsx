@@ -34,9 +34,10 @@ class AddNew extends Component {
     // const { name, job } = this.state;
     return (
       <>
-        <h3>Add New</h3>
-        <form action="" onSubmit={this.onFormSumbit}>
+        <h3 className="member__subtitle">Add New</h3>
+        <form className="member__form" action="" onSubmit={this.onFormSumbit}>
           <label htmlFor="name">Name</label>
+          <br />
           <input
             ref={this.nameRef}
             type="text"
@@ -47,6 +48,7 @@ class AddNew extends Component {
           />
           <br />
           <label htmlFor="job">Job</label>
+          <br />
           <input
             ref={this.jobRef}
             type="text"
@@ -56,7 +58,7 @@ class AddNew extends Component {
             // onChange={this.handleChange}
           />
           <br />
-          <button>Submit</button>
+          <button className="member__button">Submit</button>
         </form>
       </>
     );

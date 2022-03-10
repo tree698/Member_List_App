@@ -24,13 +24,13 @@ class App extends Component {
   render() {
     const { characters } = this.state;
     return (
-      <div className="container">
+      <section className="member__container">
         <Table
           characterData1={characters}
           removeCharacter1={this.removeCharacter}
         />
         <AddNew handleSubmit1={this.handleSubmit} />
-      </div>
+      </section>
     );
   }
 }

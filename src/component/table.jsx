@@ -3,10 +3,16 @@ import React, { Component } from 'react';
 const TableHeader = () => {
   return (
     <thead>
+      <colgroup>
+        <col span="2" />
+        <col />
+      </colgroup>
       <tr>
-        <th>Name</th>
-        <th>Job</th>
-        <th>Remove</th>
+        <th scope="col">Name</th>
+        <th scope="col">Job</th>
+        <th scope="col" className="remove">
+          Remove
+        </th>
       </tr>
     </thead>
   );
@@ -39,9 +45,11 @@ class Table extends Component {
 
     return (
       <>
-        <h1>Practice with React</h1>
-        <h3>Add a character with a name and a job to the table</h3>
-        <table>
+        <h1 className="member__title">Member List</h1>
+        <div className="member__outline">
+          Add a member with a name and a job to the table
+        </div>
+        <table className="member__table">
           <TableHeader />
           <TableBody
             characterData2={characterData1}
