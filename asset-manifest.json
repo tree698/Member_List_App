@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Member_List_App/static/css/main.1750c654.css",
+    "main.js": "/Member_List_App/static/js/main.e2e64914.js",
+    "index.html": "/Member_List_App/index.html",
+    "main.1750c654.css.map": "/Member_List_App/static/css/main.1750c654.css.map",
+    "main.e2e64914.js.map": "/Member_List_App/static/js/main.e2e64914.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1750c654.css",
+    "static/js/main.e2e64914.js"
+  ]
+}
