@@ -14,5 +14,6 @@ To demonstrate my coding skills with react.
 |:--:|:--:|
 |v1.0.0|![Member_List](https://user-images.githubusercontent.com/53497516/157604362-ef1076c4-cf79-4e9b-881b-fdab437acd14.gif)|
 
-## ⭐ To be added features
-- [ ] Add a pagenation
+## :star: Deployment
+
+- [https://tree698.github.io/Member_List_App/](https://tree698.github.io/Member_List_App/)
