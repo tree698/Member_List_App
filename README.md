@@ -1,4 +1,4 @@
-# Member List App :dog:
+# Member List App :busts_in_silhouette:
 ## :star: 목적
 - 리액트 클래스의 기초적인 사항 구현 연습
 
