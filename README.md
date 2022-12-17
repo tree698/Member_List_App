@@ -5,7 +5,7 @@
 ## :star: 스택
 ![HTML](https://img.shields.io/badge/-HTML5-F05032?style=for-the-badge&logo=html5&logoColor=ffffff)
 ![CSS](https://img.shields.io/badge/-CSS-007ACC?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23F7DF1C)
 ![React](https://img.shields.io/badge/-React-222222?style=for-the-badge&logo=react)
 
 ## :star: 주요 기능
